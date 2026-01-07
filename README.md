@@ -1,15 +1,9 @@
 # Website Sandbox & User Behavior Tracking System
 
-- Họ và tên: **Trần Minh Hiếu**  
-- MSSV: **64130678**  
-- Trường: **Đại học Nha Trang**  
-- Lớp: **64.CNTT.CLC**  
-
----
-
 > Dự án thực tập triển khai website sandbox và hệ thống đo lường hành vi người dùng bằng Google Tag Manager, Google Analytics 4 và Looker Studio.
 
 ---
+
 ## 1. Tổng quan dự án
 
 Dự án được thực hiện trong khuôn khổ **Thực tập Doanh nghiệp 2**, tập trung vào việc xây dựng một **website sandbox** làm môi trường thử nghiệm cho hoạt động đo lường và phân tích hành vi người dùng trên website.
@@ -65,20 +59,16 @@ images/
     ├── news.png
     └── recruitment.png
 ```
-<img width="1916" height="10213" alt="Image" src="https://github.com/user-attachments/assets/2e0ea290-e88b-48c4-b177-500d9e5acb74" />
-
-<img width="1916" height="1555" alt="Image" src="https://github.com/user-attachments/assets/1f312750-3490-4946-a05e-a045071ebde5" />
-
-
-<img width="1916" height="2437" alt="Image" src="https://github.com/user-attachments/assets/308ec26b-fd41-4dd2-83b6-d73e4668ceb1" />
-
-<img width="1916" height="2437" alt="Image" src="https://github.com/user-attachments/assets/dcf0d623-e655-44bb-bbdc-4d840d7b642b" />
 
 ### Dashboard phân tích dữ liệu
+_Chèn ảnh dashboard tại đây_
 
-<img width="981" height="688" alt="Image" src="https://github.com/user-attachments/assets/e9c6d0d3-e204-4527-834b-f002d9ad0a4b" />
-
-<img width="981" height="1005" alt="Image" src="https://github.com/user-attachments/assets/eed7a7c8-f7c2-4d29-9675-6ed6e664e397" />
+```
+images/
+└── dashboard/
+    ├── overview.png
+    └── user-behavior.png
+```
 
 ---
 
@@ -130,6 +120,15 @@ hoặc
 
 - Dashboard Looker Studio:  
   https://lookerstudio.google.com/reporting/619d2626-5bbc-4845-9b50-eedcb6112c7e
+
+---
+
+## 10. Thông tin thực tập sinh
+
+- Họ và tên: **Trần Minh Hiếu**  
+- MSSV: **64130678**  
+- Trường: **Đại học Nha Trang**  
+- Lớp: **64.CNTT.CLC**  
 
 ---
 
