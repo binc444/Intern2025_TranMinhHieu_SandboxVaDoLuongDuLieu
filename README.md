@@ -56,7 +56,7 @@ Website sandbox hỗ trợ các chức năng:
 
 ### Giao diện Website Sandbox
 
-<img width="1916" height="10213" alt="Image" src="https://github.com/user-attachments/assets/2e0ea290-e88b-48c4-b177-500d9e5acb74" />
+<img width="auto" height="auto" alt="Image" src="https://github.com/user-attachments/assets/2e0ea290-e88b-48c4-b177-500d9e5acb74" />
 
 <img width="1916" height="1555" alt="Image" src="https://github.com/user-attachments/assets/1f312750-3490-4946-a05e-a045071ebde5" />
 
