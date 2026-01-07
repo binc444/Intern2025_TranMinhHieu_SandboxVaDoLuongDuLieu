@@ -1,0 +1,47 @@
+/* Reset CSS */
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ----- FIREFOX SCROLLBAR ----- */
+/* ----- SCROLLBAR SIÊU MỎNG (WEBKIT) ----- */
+::-webkit-scrollbar {
+    width: 3px;                      /* Mỏng chỉ 4px */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;         /* Không có nền */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(98, 51, 155, 0.4); /* Tím nhạt trong suốt */
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(98, 51, 155, 0.7); /* Đậm hơn khi hover */
+}
+

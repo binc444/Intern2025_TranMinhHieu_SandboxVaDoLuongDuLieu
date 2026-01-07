@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5Q77VGD4');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Code - Chi tiết bài viết</title>
+    <!-- -------------------------------------------------------------- -->
+    <link rel="icon" href="assets/images/favicon/lc-favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="assets/images/favicon/lc-favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="assets/images/favicon/lc-favicon-180x180.png" />
+    <!-- -------------------------------------------------------------- -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/news.css">
+    <link rel="stylesheet" href="assets/css/news-detail.css">
+    <!-- Font poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fc22b2cb3d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Q77VGD4" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Phần header -->
+    <div class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo/logo.png.webp" alt="Logo">
+                </a>
+            </div>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html#about">Về chúng tôi</a></li>
+                    <li><a href="doi-ngu-sang-lap.html">Đội ngũ</a></li>
+                    <li><a href="index.html#teachers">Giáo viên</a></li>
+                    <li><a href="index.html#courses">Khóa học</a></li>
+                    <li><a href="tuyen-dung.html">Tuyển dụng</a></li>
+                    <li><a href="tin-tuc-su-kien.html">Tin tức</a></li>
+                    <li><a href="index.html#register" class="highlight">Đăng ký trải nghiệm</a></li>
+                </ul>
+            </nav>
+
+            <div class="mobile-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Phần tin tức -->
+    <div class="news-wrapper">
+
+        <!-- LEFT : ARTICLE -->
+        <div class="news-left">
+            <div id="postDetail"></div>
+
+            <!-- CONTACT SECTION -->
+            <div class="news-contact-box">
+                <p><a href="index.html#register">Đăng ký học</a> tại website, hoặc chat: <a
+                        href="http://m.me/LetCode2022">Fanpage Let’s Code.</a>
+                <h4>THÔNG TIN LIÊN HỆ</h4>
+                </p>
+                <ul>
+                    <li>Cơ sở chính: <a href="https://goo.gl/maps/SBJ3a7E1Df7t4cGK8">23 Thái Nguyên, P.Phước Tân, TP.Nha
+                            Trang</a></li>
+                    <li>Hotline: <a href="tel:0795.727.878">0795.727.878</a></li>
+                    <li>Email: <a href="mailto:contact@theheso.edu.vn">contact@theheso.edu.vn</a></li>
+                    <li>Facebook: <a href="https://www.facebook.com/LetCode2022">Fanpage – Let’s Code – Dạy lập trình
+                            cho trẻ em</a></li>
+                    <li>Website: <a href="https://letscode.edu.vn/">https://letscode.edu.vn/</a></li>
+                </ul>
+
+                <!-- GOOGLE MAP -->
+                <iframe style="margin-top:10px; border-radius:12px" width="100%" height="300" frameborder="0"
+                    scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?q=23%20Th%C3%A1i%20Nguy%C3%AAn%20Nha%20Trang&t=&z=15&ie=UTF8&iwloc=&output=embed">
+                </iframe>
+            </div>
+        </div>
+
+        <!-- RIGHT : NEW POSTS -->
+        <div class="news-right">
+            <h3 class="news-right-title">Bài viết mới</h3>
+            <div id="newPosts" class="news-right-list"></div>
+        </div>
+
+    </div>
+
+    <!-- Phần footer -->
+    <footer class="lc-footer">
+        <div class="lc-footer-info">
+            <div class="lc-container">
+                <div class="lc-footer-row">
+
+                    <!-- Logo + Slogan + Social -->
+                    <div class="lc-footer-col">
+                        <a href="https://letscode.edu.vn/">
+                            <img class="lc-footer-logo" src="assets/images/logo/LOGO-FOOTER.png.webp" alt="logo-footer">
+                        </a>
+
+                        <p class="lc-footer-slogan">
+                            Let's Code - Trung tâm giáo dục công nghệ đầu tiên và duy nhất tại Nha Trang,
+                            nơi mà trẻ em được học tư duy lập trình
+                        </p>
+
+                        <ul class="lc-social-list">
+                            <li><a href="https://facebook.com/LetCode2022" target="_blank"><i
+                                        class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="https://www.youtube.com/@letscodeacademy" target="_blank"><i
+                                        class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/let-s-code-159539289/" target="_blank"><i
+                                        class="fab fa-linkedin"></i></a></li>
+                            <li>
+                                <a href="https://zalo.me/465455422858324122" target="_blank">
+                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_171_66)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M3.37552 17.7277C4.30468 17.8304 5.46636 17.5654 6.2912 17.165C9.46995 18.922 14.2375 19.0452 17.6391 17.5345C17.17 18.0189 16.6264 18.4272 16.0126 18.7526L16.0105 18.7537C14.8449 19.3787 13.5144 19.7256 11.1435 19.7256H9.38428C7.01336 19.7256 5.68291 19.3787 4.51725 18.7537C3.34394 18.1246 2.42309 17.2098 1.80337 16.0407L1.80226 16.0387C1.1773 14.873 0.830322 13.5425 0.830322 11.1716V9.41239C0.830322 7.04148 1.1773 5.71102 1.80226 4.54537L1.80226 4.54537C2.28767 3.63998 2.94322 2.88493 3.75441 2.30256C1.33122 5.79485 1.3841 11.738 3.91303 15.1233C3.91617 15.1288 3.91965 15.1344 3.92347 15.1401C4.35728 15.7794 3.93869 16.8982 3.28419 17.5526C3.17764 17.6516 3.21569 17.7125 3.37552 17.7277ZM18.7612 16.944C18.7946 16.9233 18.8278 16.9024 18.8608 16.8813C18.9923 16.6841 19.1151 16.4791 19.229 16.2665C19.9064 15.0032 20.2641 13.58 20.2641 11.1446V9.37899C20.2641 6.94359 19.9064 5.52043 19.229 4.25708C18.5593 2.99374 17.5624 2.00436 16.299 1.32702C15.0356 0.649688 13.6125 0.291992 11.1771 0.291992H9.40388C7.32968 0.291992 5.9832 0.553094 4.85188 1.05156C4.80935 1.08965 4.76736 1.12818 4.72597 1.16716C4.57443 1.23698 4.42653 1.31118 4.281 1.38968C3.02225 2.05697 2.03647 3.05033 1.3616 4.30911C0.686716 5.56787 0.330322 6.98587 0.330322 9.41239V11.1716C0.330322 13.5982 0.686716 15.0162 1.3616 16.2749C2.02889 17.5337 3.02225 18.5195 4.281 19.1944C5.53976 19.8692 6.95776 20.2256 9.38428 20.2256H11.1435C13.57 20.2256 14.988 19.8692 16.2468 19.1944C17.2734 18.6502 18.1183 17.8891 18.7612 16.944ZM8.4892 7.0918H4.5992V7.92592H7.29868L4.63708 11.2245C4.55368 11.3458 4.49304 11.4596 4.49304 11.7174V11.9297H8.16312C8.34512 11.9297 8.4968 11.778 8.4968 11.596V11.1486H5.6608L8.16312 8.00932C8.20104 7.96384 8.26928 7.88044 8.29964 7.84252L8.3148 7.81976C8.45888 7.60744 8.4892 7.42544 8.4892 7.20556V7.0918ZM13.9941 11.9297H13.4405C13.2813 11.9297 13.16 11.8008 13.16 11.6491V7.0918H13.9941V11.9297ZM10.5895 8.16895C9.54307 8.16895 8.69379 9.01822 8.69379 10.0647C8.69379 11.1111 9.54307 11.9604 10.5895 11.9604C11.0098 11.9604 11.3983 11.8234 11.7128 11.5916V11.6038C11.7128 11.7782 11.8644 11.9299 12.0464 11.9299H12.4938V8.2749H11.7128V8.53372C11.3987 8.30438 11.0104 8.16895 10.5895 8.16895ZM10.5895 11.1793C9.97531 11.1793 9.47483 10.6789 9.47483 10.0647C9.47483 9.45047 9.97531 8.94999 10.5895 8.94999C11.2037 8.94999 11.7042 9.45047 11.7042 10.0647C11.7042 10.6789 11.2113 11.1793 10.5895 11.1793ZM14.5477 10.0496C14.5477 8.99555 15.4046 8.13867 16.4586 8.13867C17.5126 8.13867 18.3695 8.99555 18.3695 10.0496C18.3695 11.1036 17.5126 11.9605 16.4586 11.9605C15.4046 11.9605 14.5477 11.1036 14.5477 10.0496ZM15.3363 10.0572C15.3363 10.679 15.8368 11.1794 16.4586 11.1794C17.0804 11.1794 17.5809 10.679 17.5809 10.0572C17.5809 9.43535 17.0804 8.93487 16.4586 8.93487C15.8368 8.93487 15.3363 9.43535 15.3363 10.0572Z"
+                                                fill="white"></path>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_171_66">
+                                                <rect width="20" height="20" fill="white"
+                                                    transform="translate(0.263916 0.291992)"></rect>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Location -->
+                    <div class="lc-footer-col lc-footer-location">
+                        <div class="lc-footer-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="lc-footer-title">Trụ sở chính</p>
+                            <p><a href="https://goo.gl/maps/SBJ3a7E1Df7t4cGK8" target="_blank">
+                                    23 Thái Nguyên, P.Phước Tân, TP.Nha Trang
+                                </a></p>
+                        </div>
+
+                        <div class="lc-footer-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="lc-footer-title">Cơ sở 2</p>
+                            <p><a href="https://maps.app.goo.gl/mg1FrL7pYAEj6nSK9" target="_blank">
+                                    644 Hai Tháng Tư, Vĩnh Phước, Nha Trang, Khánh Hòa 650000
+                                </a></p>
+                        </div>
+                    </div>
+
+                    <!-- Phone + Email -->
+                    <div class="lc-footer-col">
+                        <div class="lc-footer-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <p class="lc-footer-title">Đường dây nóng</p>
+                            <p><a href="tel:0795.727.878">0795.727.878</a></p>
+                        </div>
+
+                        <div class="lc-footer-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p class="lc-footer-title">Email</p>
+                            <p><a href="mailto:contact@theheso.edu.vn">contact@theheso.edu.vn</a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- COPYRIGHT -->
+        <div class="lc-footer-copy">
+            <div class="lc-container">
+                <p style="font-size: 12px;">© Bản quyền từ 2023. Sản phẩm thuộc quản lý của Công ty TNHH Doanh Nghiệp Xã
+                    Hội Thế Hệ Số.</p>
+            </div>
+        </div>
+
+        <!-- Fixed Contact -->
+        <div class="lc-fixed-contact">
+            <a class="lc-fixed-zalo" href="https://zalo.me/079-572-7878" target="_blank">
+                <img src="https://letscode.edu.vn/wp-content/themes/letscode/assets/images/ctr-chatzalo.png" alt="Zalo">
+            </a>
+
+            <a class="lc-fixed-phone" href="tel:0795.727.878">
+                <i class="fas fa-phone"></i>
+            </a>
+
+            <a class="lc-fixed-mess" href="https://www.messenger.com/t/100481485937536" target="_blank">
+                <i class="fab fa-facebook-messenger"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="assets/js/news-detail.js"></script>
+    <script src="assets/js/navmobile.js"></script>
+</body>
+
+</html>

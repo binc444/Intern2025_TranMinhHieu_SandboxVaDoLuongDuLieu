@@ -1,0 +1,302 @@
+a {
+    text-decoration: none;
+    color: #4169e1;
+}
+
+/* ============================
+     TOC WRAPPER
+=============================*/
+.post-toc {
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 15px 18px;
+    margin: 25px 0;
+    border-radius: 6px;
+    max-width: 400px;
+}
+
+/* Tiêu đề */
+.post-toc h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+/* ============================
+     TOC LINKS
+=============================*/
+.post-toc a {
+    display: block;
+    padding: 6px 0;
+    color: #428bca;
+    text-decoration: none;
+    border-left: 3px solid transparent;
+    transition: 0.25s;
+    font-size: 14px;
+}
+
+.post-toc a:hover {
+    color: #ff9800;
+    border-left-color: #ff9800;
+    padding-left: 6px;
+}
+
+/* ============================
+     STYLE LIST GIỐNG EZ-TOC
+=============================*/
+.post-toc ul,
+.post-toc li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.post-toc ul li {
+    margin-bottom: 4px;
+}
+
+.post-toc ul li a {
+    display: block;
+}
+
+/* ============================
+     TOGGLE BUTTON (nếu thêm sau)
+=============================*/
+.post-toc .toc-toggle {
+    float: right;
+    cursor: pointer;
+    font-size: 16px;
+    color: #777;
+}
+
+.post-toc .toc-toggle:hover {
+    color: #000;
+}
+
+/* ============================
+     RESPONSIVE
+=============================*/
+@media (max-width: 768px) {
+    .post-toc {
+        padding: 12px;
+    }
+
+    .post-toc h4 {
+        font-size: 16px;
+    }
+
+    .post-toc a {
+        font-size: 14px;
+    }
+}
+
+/* ===============================
+    WRAPPER
+=============================== */
+.news-content-detail {
+    line-height: 1.7;
+    font-size: 17px;
+    color: #333;
+    margin-top: 25px;
+}
+
+/* ===============================
+    TIÊU ĐỀ TRONG BÀI
+=============================== */
+.news-content-detail h1,
+.news-content-detail h2,
+.news-content-detail h3,
+.news-content-detail h4 {
+    font-weight: 700;
+    margin: 12px 0 12px;
+    line-height: 1.4;
+    color: inherit;
+    font-family: inherit;
+}
+
+h3 {
+    line-height: 1.7;
+}
+
+a {
+    color: #4169e1;
+}
+
+a:hover {
+    color: #0a58ca;
+}
+
+/* Tùy chỉnh kích thước từng loại */
+.news-content-detail h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.news-content-detail h3 {
+    font-size: 20px;
+}
+
+.news-content-detail h4 {
+    font-size: 18px;
+}
+
+/* ===============================
+    ĐOẠN VĂN
+=============================== */
+.news-content-detail p {
+    margin: 15px 0;
+    font-size: 17px;
+}
+
+/* ===============================
+    LIST (UL / OL)
+=============================== */
+.news-content-detail ul,
+.news-content-detail ol {
+    padding-left: 25px;
+    margin: 15px 0;
+}
+
+.news-content-detail li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+/* ===============================
+    HÌNH ẢNH + CAPTION
+=============================== */
+.news-content-detail figure {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.news-content-detail figure img {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+.news-content-detail figure figcaption {
+    font-size: 14px;
+    color: #555;
+    margin-top: 8px;
+}
+
+/* ===============================
+    TABLE (nếu JSON có bảng sau này)
+=============================== */
+.news-content-detail table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.news-content-detail table th,
+.news-content-detail table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* ===============================
+    RESPONSIVE
+=============================== */
+@media (max-width: 768px) {
+    .news-content-detail {
+        font-size: 16px;
+    }
+
+    .news-content-detail h2 {
+        font-size: 22px;
+    }
+
+    .news-content-detail h3 {
+        font-size: 19px;
+    }
+
+    iframe {
+        max-width: auto;
+    }
+}
+
+.news-content-detail ul {
+    list-style-type: disc !important;
+    padding-left: 25px;
+    margin: 15px 0;
+}
+
+.news-content-detail li {
+    list-style-type: disc !important;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.news-content-detail h2,
+.news-content-detail h3,
+.news-content-detail h4 {
+    scroll-margin-top: 90px
+}
+
+
+/* ======== TOC CONTAINER ======== */
+.post-toc {
+    background: #fafafa;
+    border: 1px solid #e6e6e6;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 25px 0;
+}
+
+/* ======== HEADER ======== */
+.toc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.toc-header h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* ======== BUTTON ======== */
+.toc-toggle-btn {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    transition: background 0.2s;
+}
+
+.toc-toggle-btn:hover {
+    background: #f0f0f0;
+}
+
+/* ======== TOC BODY ======== */
+.toc-body {
+    display: block;
+    overflow: hidden;
+    transition: max-height 0.35s ease, opacity 0.35s ease;
+    max-height: 600px;
+    opacity: 1;
+}
+
+
+.toc-body a:hover {
+    text-decoration: underline;
+}
+
+/* ======== COLLAPSED STATE ======== */
+.toc-body.collapsed {
+    max-height: 0;
+    opacity: 0;
+}
