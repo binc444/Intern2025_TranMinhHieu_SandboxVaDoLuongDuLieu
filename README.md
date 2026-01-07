@@ -59,11 +59,13 @@ Website sandbox hỗ trợ các chức năng:
 ## Trang chủ:
 <img width="auto" height="auto" alt="Image" src="https://github.com/user-attachments/assets/2e0ea290-e88b-48c4-b177-500d9e5acb74" />
 
+## Trang đội ngũ sáng lập:
 <img width="1916" height="1555" alt="Image" src="https://github.com/user-attachments/assets/1f312750-3490-4946-a05e-a045071ebde5" />
 
-
+## Trang tuyển dụng:
 <img width="1916" height="2437" alt="Image" src="https://github.com/user-attachments/assets/308ec26b-fd41-4dd2-83b6-d73e4668ceb1" />
 
+## Trang tin tức:
 <img width="1916" height="2437" alt="Image" src="https://github.com/user-attachments/assets/dcf0d623-e655-44bb-bbdc-4d840d7b642b" />
 
 ### Dashboard phân tích dữ liệu
