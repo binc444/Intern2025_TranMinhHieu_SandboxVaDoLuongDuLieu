@@ -70,9 +70,10 @@ Website sandbox hỗ trợ các chức năng:
 
 ### Dashboard phân tích dữ liệu
 
-<img width="981" height="688" alt="Image" src="https://github.com/user-attachments/assets/e9c6d0d3-e204-4527-834b-f002d9ad0a4b" />
+<img width="1133" height="828" alt="Image" src="https://github.com/user-attachments/assets/6574a515-5bad-480a-bcaf-ac1dc611bfea" />
 
-<img width="981" height="1005" alt="Image" src="https://github.com/user-attachments/assets/eed7a7c8-f7c2-4d29-9675-6ed6e664e397" />
+<img width="717" height="746" alt="Image" src="https://github.com/user-attachments/assets/88fe75eb-0b0b-4bc6-8b6e-9741231cf6e4" />
+
 
 ---
 
